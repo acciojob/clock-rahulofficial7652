@@ -11,6 +11,6 @@ const format = just.toLocaleString('en-US', {
   hour12: true
 });
 
-const answer = format.replace(',', "");
+const answer = format.replace(',', ",");
 
 dateElements[0].innerText = answer;
